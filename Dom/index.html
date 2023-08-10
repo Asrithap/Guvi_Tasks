@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <h1 id="heading">Hello world</h1>
+    <p id="demo"></p>
+    <p class="sample"></p>
+    <p></p>
+    <p id="abcd"></p>
+    <div class="sample"></div>
+    <div id="abcd"></div> -->
+    <p>sdfgyuikjgyui</p>
+    esrtyuiknbg<br />
+    <script>
+      //getElementById --- updating the data
+      //   var element = document.getElementById('demo');
+      //   element.innerHTML = 'this paragraph is used javascript';
+
+      //getElementsByClassName --- updating the data
+      //we get array
+      //   var elements = document.getElementsByClassName('sample');
+      //   var p = elements[0];
+      //   var div = elements[1];
+      //   p.innerHTML = 'this is p tag';
+      //   div.innerHTML = 'this is div tag';
+      //or
+      //   var elements = document.getElementsByClassName('sample')[0];
+      //   elements.innerHTML = 'this is first element updated in array';
+
+      //appending the data
+      //   var htag = document.getElementById('heading');
+      //   htag.innerHTML += ' this is appending';
+
+      //getElementsByTagName
+
+      //QuerySelector ---- instead of using getElementById/getElementsByClassName/getElementsByTagName
+      //iterating the elements using QuerySelector
+      //   var ele = document.querySelectorAll('p');
+      //   for (var i = 0; i < ele.length; i++) {
+      //     ele[i].innerHTML = 'this is p tag';
+      //   }
+
+      //Creating the element
+      //       Step1 : create the element
+      var ele = document.createElement('p');
+      //       Step2 : give it a value
+      ele.innerHTML = 'this is p tag created dynamically';
+      //       Step 3 : insert it in document
+      document.body.appendChild(ele);
+      //   document.body.append(ele);
+      // this is diff btwn append and appendchild
+      //   document.body.appendChild('dtyujhb'); //will not work
+      //   document.body.append("dtyuikjh");//will work
+
+      //creating attributes to the elements
+      ele.setAttribute('id', 'xyz');
+      console.log(ele);
+      
+
+
+      //Task create img tag with src attribute and link
+      var imgTag = document.createElement("img");
+      imgTag.innerHTML = "this is image tag";
+      document.body.appendChild(imgTag)
+      imgTag.setAttribute("src","https://hips.hearstapps.com/hmg-prod/images/pink-lotus-flowers-and-leaves-in-the-lake-royalty-free-image-1686761539.jpg?crop=0.6673xw:1xh;center,top&resize=1200:*")
+    </script>
+  </body>
+</html>
